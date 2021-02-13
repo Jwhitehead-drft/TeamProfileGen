@@ -22,7 +22,7 @@ function appMenu() {
 
             },
             {
-                type: "input",
+                type: "number",
                 name: "managerId",
                 message: "What is your manager's ID?"
                 // Validate input here
@@ -42,11 +42,21 @@ function appMenu() {
                 // Validate input here
 
             },
-        ]).then(ansers => {
-            const manager = new Manager(answers.managerName, answers.managerID, answers.managerEmail, answers.managerOfficeNumber)
+        ]).then(answers => {
+            const manager = new Manager(answers.managerName, answers.managerId, answers.managerEmail, answers.managerOfficeNumber)
             console.log(manager);
+
+            // Add this new OBJECT to our TEAM
+
+
+            // What next (?)
+
         });
+
+        
     }
+
+    createManager();
 }
 
 
