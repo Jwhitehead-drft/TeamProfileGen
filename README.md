@@ -24,4 +24,6 @@ For testing, run the following command:
 You cannot contribute to this repo
 The user should try to create managers first followed by any employees (engineer or interns) that the manager is in charge of overseeing.
 
+https://youtu.be/Al74xIe3rUo   for preview of app running.
+
 ######You have reached the end of the ReadMe
